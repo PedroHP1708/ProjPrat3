@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/corFundo"
+    tools:context=".CadastroPessoa">
+
+    <TextView
+        android:id="@+id/cadastro"
+        android:layout_width="189dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="42dp"
+        android:fontFamily="@font/alata"
+        android:text="CADASTRO"
+        android:textFontWeight="400"
+        android:textColor="@color/corFonte"
+        android:textSize="36dp"
+        />
+
+
+    <TextView
+        android:id="@+id/nome"
+        android:layout_width="51dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="140dp"
+        android:fontFamily="@font/alef"
+        android:gravity="top"
+        android:text="Nome"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/edtNome"
+        android:layout_width="219dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="114dp"
+        android:layout_marginTop="141dp"
+        />
+
+    <TextView
+        android:id="@+id/cpf"
+        android:layout_width="48dp"
+        android:layout_height="23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="194dp"
+        android:text="CPF"
+        android:fontFamily="@font/alef"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:gravity="top"
+        />
+
+    <EditText
+        android:id="@+id/edtCpf"
+        android:layout_width="219dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="114dp"
+        android:layout_marginTop="195dp"
+        />
+
+    <TextView
+        android:id="@+id/cidade"
+        android:layout_width="58dp"
+        android:layout_height="23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="247dp"
+        android:text="Cidade"
+        android:fontFamily="@font/alef"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:gravity="top"
+        />
+
+    <EditText
+        android:id="@+id/edtCidade"
+        android:layout_width="219dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="114dp"
+        android:layout_marginTop="248dp" />
+
+    <TextView
+        android:id="@+id/area"
+        android:layout_width="78dp"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="31dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="302dp"
+        android:text="Área de atuação"
+        android:fontFamily="@font/alef"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:gravity="top"
+        />
+
+    <EditText
+        android:id="@+id/edtArea"
+        android:layout_width="219dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="114dp"
+        android:layout_marginTop="303dp"
+        />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="49dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="57dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="364dp"
+        android:text="Email"
+        android:fontFamily="@font/alef"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:gravity="top"
+        />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="219dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="114dp"
+        android:layout_marginTop="363dp"
+        />
+
+    <TextView
+        android:id="@+id/senha"
+        android:layout_width="53dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="54dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="417dp"
+        android:text="Senha"
+        android:fontFamily="@font/alef"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:gravity="top"
+        />
+
+    <EditText
+        android:id="@+id/edtSenha"
+        android:layout_width="219dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="114dp"
+        android:layout_marginTop="416dp"
+        />
+
+    <Button
+        android:id="@+id/btnContinuar1"
+        android:layout_width="155dp"
+        android:layout_height="40.79dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="121dp"
+        android:layout_marginTop="523dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/alef"
+        android:text="Continuar"
+        android:textColor="@color/roxo"
+        android:textSize="18dp"
+        android:textFontWeight="700"/>
+
+</RelativeLayout>
