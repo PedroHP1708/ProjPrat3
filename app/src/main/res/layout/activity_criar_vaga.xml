@@ -9,12 +9,12 @@
 
     <TextView
         android:id="@+id/cadastro"
-        android:layout_width="189dp"
+        android:layout_width="219dp"
         android:layout_height="51dp"
         android:layout_marginLeft="100dp"
         android:layout_marginTop="42dp"
         android:fontFamily="@font/alata"
-        android:text="CADASTRO"
+        android:text="CRIAR VAGA"
         android:textFontWeight="400"
         android:textColor="@color/corFonte"
         android:textSize="36dp"
@@ -22,19 +22,19 @@
 
 
     <TextView
-        android:id="@+id/nome"
+        android:id="@+id/titulo"
         android:layout_width="51dp"
         android:layout_height="24dp"
         android:layout_marginLeft="56dp"
         android:layout_marginTop="140dp"
         android:fontFamily="@font/alef"
         android:gravity="top"
-        android:text="Nome"
+        android:text="Título"
         android:textColor="@color/white"
         android:textSize="18dp" />
 
     <EditText
-        android:id="@+id/edtNome"
+        android:id="@+id/edtTitulo"
         android:layout_width="219dp"
         android:layout_height="30dp"
         android:layout_marginLeft="114dp"
@@ -43,14 +43,13 @@
         />
 
     <TextView
-        android:id="@+id/cpf"
-        android:layout_width="48dp"
+        android:layout_width="80dp"
         android:layout_height="23dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="59dp"
+        android:layout_marginLeft="34dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="194dp"
-        android:text="CPF"
+        android:text="Endereço"
         android:fontFamily="@font/alef"
         android:textColor="@color/white"
         android:textSize="18dp"
@@ -58,7 +57,7 @@
         />
 
     <EditText
-        android:id="@+id/edtCpf"
+        android:id="@+id/edtEndereco"
         android:layout_width="219dp"
         android:layout_height="30dp"
         android:layout_marginLeft="114dp"
@@ -67,37 +66,13 @@
         />
 
     <TextView
-        android:id="@+id/cidade"
         android:layout_width="58dp"
         android:layout_height="23dp"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="32dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="247dp"
-        android:text="Cidade"
-        android:fontFamily="@font/alef"
-        android:textColor="@color/white"
-        android:textSize="18dp"
-        android:gravity="top"
-        />
-
-    <EditText
-        android:id="@+id/edtCidade"
-        android:layout_width="219dp"
-        android:layout_height="30dp"
-        android:layout_marginLeft="114dp"
-        android:layout_marginTop="248dp"
-        android:background="@drawable/custom_edt"/>
-
-    <TextView
-        android:id="@+id/area"
-        android:layout_width="78dp"
-        android:layout_height="52dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="31dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="302dp"
-        android:text="Área de atuação"
+        android:text="Área"
         android:fontFamily="@font/alef"
         android:textColor="@color/white"
         android:textSize="18dp"
@@ -109,19 +84,39 @@
         android:layout_width="219dp"
         android:layout_height="30dp"
         android:layout_marginLeft="114dp"
-        android:layout_marginTop="303dp"
-        android:background="@drawable/custom_edt"
-        />
+        android:layout_marginTop="248dp"
+        android:background="@drawable/custom_edt"/>
 
     <TextView
-        android:id="@+id/email"
+        android:layout_width="78dp"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="31dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="302dp"
+        android:text="Descrição"
+        android:fontFamily="@font/alef"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:gravity="top"
+        />
+
+    <EditText
+        android:id="@+id/edtDescricao"
+        android:layout_width="219dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="114dp"
+        android:layout_marginTop="303dp"
+        android:background="@drawable/custom_edt" />
+
+    <TextView
         android:layout_width="49dp"
         android:layout_height="24dp"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="57dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="364dp"
-        android:text="Email"
+        android:layout_marginTop="394dp"
+        android:text="Salário Base"
         android:fontFamily="@font/alef"
         android:textColor="@color/white"
         android:textSize="18dp"
@@ -129,49 +124,26 @@
         />
 
     <EditText
-        android:id="@+id/edtEmail"
+        android:id="@+id/edtSalario"
         android:layout_width="219dp"
         android:layout_height="30dp"
         android:layout_marginLeft="114dp"
-        android:layout_marginTop="363dp"
+        android:layout_marginTop="393dp"
         android:background="@drawable/custom_edt"
         />
 
-    <TextView
-        android:id="@+id/senha"
-        android:layout_width="53dp"
-        android:layout_height="24dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="54dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="417dp"
-        android:text="Senha"
-        android:fontFamily="@font/alef"
-        android:textColor="@color/white"
-        android:textSize="18dp"
-        android:gravity="top"
-        />
-
-    <EditText
-        android:id="@+id/edtSenha"
-        android:layout_width="219dp"
-        android:layout_height="30dp"
-        android:layout_marginLeft="114dp"
-        android:layout_marginTop="416dp"
-        android:background="@drawable/custom_edt"
-        />
 
     <Button
         android:id="@+id/btnContinuar1"
-        android:layout_width="155dp"
-        android:layout_height="40.79dp"
+        android:layout_width="170dp"
+        android:layout_height="52dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="121dp"
         android:layout_marginTop="523dp"
         android:backgroundTint="@color/white"
         android:fontFamily="@font/alef"
-        android:text="Continuar"
+        android:text="Criar"
         android:textColor="@color/roxo"
         android:textSize="18dp"
         android:textFontWeight="700"/>

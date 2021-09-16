@@ -3,10 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/pedro/AndroidStudioProjects/ProjPrat3/app/src/main/res/drawable/custom_btn.xml" value="0.2703125" />
         <entry key="..\:/Users/pedro/AndroidStudioProjects/ProjPrat3/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
         <entry key="..\:/Users/pedro/AndroidStudioProjects/ProjPrat3/app/src/main/res/layout/activity_cadastro_empresa.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/pedro/AndroidStudioProjects/ProjPrat3/app/src/main/res/layout/activity_cadastro_pessoa.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pedro/AndroidStudioProjects/ProjPrat3/app/src/main/res/layout/activity_criar_vaga.xml" value="0.24010416666666667" />
         <entry key="..\:/Users/pedro/AndroidStudioProjects/ProjPrat3/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pedro/AndroidStudioProjects/ProjPrat3/app/src/main/res/layout/activity_perfil_usuario.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pedro/AndroidStudioProjects/ProjPrat3/app/src/main/res/layout/activity_tela_vaga.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pedro/AndroidStudioProjects/ProjPrat3/app/src/main/res/layout/custom_btn.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/pedro/AndroidStudioProjects/ProjPrat3/app/src/main/res/layout/custom_edt.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>

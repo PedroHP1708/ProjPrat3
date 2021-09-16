@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/corFundo"
+    tools:context=".CadastroPessoa">
+
+    <TextView
+        android:id="@+id/tvNome"
+        android:layout_width="219dp"
+        android:layout_height="101dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="22dp"
+        android:fontFamily="@font/alata"
+        android:text="NOME DO USUÁRIO"
+        android:textFontWeight="400"
+        android:textColor="@color/corFonte"
+        android:textSize="36dp"
+        />
+
+
+    <TextView
+        android:id="@+id/tvArea"
+        android:layout_width="51dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="140dp"
+        android:fontFamily="@font/alef"
+        android:gravity="top"
+        android:text="Área"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/tvCpf"
+        android:layout_width="80dp"
+        android:layout_height="23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="54dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="194dp"
+        android:text="CPF"
+        android:fontFamily="@font/alef"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:gravity="top"
+        />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="58dp"
+        android:layout_height="23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="52dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="247dp"
+        android:text="Email"
+        android:fontFamily="@font/alef"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:gravity="top"
+        />
+
+    <TextView
+        android:id="@+id/tvCidade"
+        android:layout_width="78dp"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="302dp"
+        android:text="Cidade"
+        android:fontFamily="@font/alef"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:gravity="top"
+        />
+
+    <TextView
+        android:id="@+id/tvDescricao"
+        android:layout_width="80dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="354dp"
+        android:text="Descrição"
+        android:fontFamily="@font/alef"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:gravity="top"
+        />
+
+    <EditText
+        android:id="@+id/edtDescricao"
+        android:layout_width="276dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="391dp"
+        android:background="@drawable/custom_edt" />
+
+
+    <Button
+        android:id="@+id/btnChamar"
+        android:layout_width="170dp"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="121dp"
+        android:layout_marginTop="573dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/alef"
+        android:text="Chamar"
+        android:textColor="@color/roxo"
+        android:textSize="18dp"
+        android:textFontWeight="700"/>
+
+</RelativeLayout>

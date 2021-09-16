@@ -39,6 +39,7 @@
         android:layout_height="30dp"
         android:layout_marginLeft="114dp"
         android:layout_marginTop="141dp"
+        android:background="@drawable/custom_edt"
         />
 
     <TextView
@@ -62,6 +63,7 @@
         android:layout_height="30dp"
         android:layout_marginLeft="114dp"
         android:layout_marginTop="195dp"
+        android:background="@drawable/custom_edt"
         />
 
     <TextView
@@ -84,7 +86,8 @@
         android:layout_width="219dp"
         android:layout_height="30dp"
         android:layout_marginLeft="114dp"
-        android:layout_marginTop="248dp" />
+        android:layout_marginTop="248dp"
+        android:background="@drawable/custom_edt"/>
 
     <TextView
         android:id="@+id/telefone"
@@ -107,6 +110,7 @@
         android:layout_height="30dp"
         android:layout_marginLeft="114dp"
         android:layout_marginTop="303dp"
+        android:background="@drawable/custom_edt"
         />
 
     <TextView
@@ -130,6 +134,7 @@
         android:layout_height="30dp"
         android:layout_marginLeft="114dp"
         android:layout_marginTop="353dp"
+        android:background="@drawable/custom_edt"
         />
 
     <TextView
@@ -153,6 +158,7 @@
         android:layout_height="30dp"
         android:layout_marginLeft="114dp"
         android:layout_marginTop="406dp"
+        android:background="@drawable/custom_edt"
         />
 
     <Button

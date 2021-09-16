@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjPrat3">
         <activity
+            android:name=".TelaVaga"
+            android:exported="true" />
+        <activity
+            android:name=".PerfilUsuarioClicado"
+            android:exported="true" />
+        <activity
+            android:name=".CriarVaga"
+            android:exported="true" />
+        <activity
             android:name=".CadastroPessoa"
             android:exported="true" />
         <activity

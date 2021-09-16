@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/corFundo"
+    tools:context=".CadastroPessoa">
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="199dp"
+        android:layout_height="81dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="42dp"
+        android:fontFamily="@font/alata"
+        android:text="Título"
+        android:textFontWeight="400"
+        android:textColor="@color/corFonte"
+        android:textSize="36dp"
+        />
+
+
+    <TextView
+        android:id="@+id/tvEmpresa"
+        android:layout_width="81dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="140dp"
+        android:fontFamily="@font/alef"
+        android:gravity="top"
+        android:text="Empresa"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/tvArea"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="194dp"
+        android:text="Área de atuação"
+        android:fontFamily="@font/alef"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:gravity="top"
+        />
+
+
+
+    <TextView
+        android:id="@+id/tvDescricao"
+        android:layout_width="80dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="260dp"
+        android:text="Descrição"
+        android:fontFamily="@font/alef"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:gravity="top"
+        />
+
+    <EditText
+        android:id="@+id/edtDescricao"
+        android:layout_width="276dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/custom_edt" />
+
+
+    <Button
+        android:id="@+id/btnCandidatar"
+        android:layout_width="194dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="121dp"
+        android:layout_marginTop="573dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/alef"
+        android:text="Me Candidatar"
+        android:textColor="@color/roxo"
+        android:textFontWeight="700"/>
+
+</RelativeLayout>
