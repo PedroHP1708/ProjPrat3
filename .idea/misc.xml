@@ -9,10 +9,17 @@
         <entry key="..\:/Users/pedro/AndroidStudioProjects/ProjPrat3/app/src/main/res/layout/activity_cadastro_pessoa.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/pedro/AndroidStudioProjects/ProjPrat3/app/src/main/res/layout/activity_criar_vaga.xml" value="0.24010416666666667" />
         <entry key="..\:/Users/pedro/AndroidStudioProjects/ProjPrat3/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pedro/AndroidStudioProjects/ProjPrat3/app/src/main/res/layout/activity_perfil_empresa.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/pedro/AndroidStudioProjects/ProjPrat3/app/src/main/res/layout/activity_perfil_usuario.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pedro/AndroidStudioProjects/ProjPrat3/app/src/main/res/layout/activity_perfil_usuario_clicado.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pedro/AndroidStudioProjects/ProjPrat3/app/src/main/res/layout/activity_tela_principal_empresa.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/pedro/AndroidStudioProjects/ProjPrat3/app/src/main/res/layout/activity_tela_principal_usuario.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/pedro/AndroidStudioProjects/ProjPrat3/app/src/main/res/layout/activity_tela_vaga.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pedro/AndroidStudioProjects/ProjPrat3/app/src/main/res/layout/custom_barra_pesquisa.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/pedro/AndroidStudioProjects/ProjPrat3/app/src/main/res/layout/custom_btn.xml" value="0.24010416666666667" />
         <entry key="..\:/Users/pedro/AndroidStudioProjects/ProjPrat3/app/src/main/res/layout/custom_edt.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pedro/AndroidStudioProjects/ProjPrat3/app/src/main/res/layout/custom_photo_place.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pedro/AndroidStudioProjects/ProjPrat3/app/src/main/res/layout/custom_view.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>

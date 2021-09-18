@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaPrincipalEmpresa"
+    android:background="@color/corFundo">
+
+    <View
+        android:id="@+id/expansivel"
+        android:layout_width="51dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginLeft="12dp"
+        android:background = "@drawable/custom_view"/>
+
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginLeft="75dp"
+        android:text="Pesquisar Usuários"
+        android:background="@drawable/custom_barra_pesquisa"
+        />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:background="#B5CEFF"
+        android:focusable="false" />
+
+    <TextView
+        android:id="@+id/filtrar_por"
+        android:layout_width="98dp"
+        android:layout_height="27dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="110dp"
+        android:text="Filtrar por:"
+        android:fontFamily="@font/alef"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        />
+
+    <Button
+        android:id="@+id/btnArea"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="131dp"
+        android:backgroundTint="@color/corFonte"
+        android:text="Área"
+        android:textColor="@color/roxo"
+        android:textSize="14dp"
+        android:fontFamily="@font/alef"
+        />
+
+    <Button
+        android:id="@+id/btnLocalizacao"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="131dp"
+        android:backgroundTint="@color/corFonte"
+        android:text="Localização"
+        android:textColor="@color/roxo"
+        android:textSize="14dp"
+        android:fontFamily="@font/alef"
+        />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="180dp"
+        android:background="#B5CEFF"
+        android:focusable="false" />
+
+
+
+</RelativeLayout>

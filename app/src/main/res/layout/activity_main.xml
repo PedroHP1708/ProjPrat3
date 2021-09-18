@@ -138,13 +138,13 @@
         android:id="@+id/btnCadPes"
         android:layout_width="198dp"
         android:layout_height="61dp"
-        android:fontFamily="@font/alef"
-        android:backgroundTint="@color/corFonte"
-        android:textColor="@color/roxo"
-        android:textFontWeight="700"
         android:layout_marginLeft="81dp"
         android:layout_marginTop="553dp"
+        android:backgroundTint="@color/corFonte"
+        android:fontFamily="@font/alef"
         android:text="Cadastro Pessoa Física"
+        android:textColor="@color/roxo"
+        android:textFontWeight="700"
         tools:layout_editor_absoluteX="111dp"
         tools:layout_editor_absoluteY="499dp" />
 

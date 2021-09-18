@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjPrat3">
         <activity
+            android:name=".TelaPrincipalUsuario"
+            android:exported="true" />
+        <activity
+            android:name=".TelaPrincipalEmpresa"
+            android:exported="true" />
+        <activity
+            android:name=".PerfilUsuario"
+            android:exported="true" />
+        <activity
+            android:name=".PerfilEmpresa"
+            android:exported="true" />
+        <activity
             android:name=".TelaVaga"
             android:exported="true" />
         <activity
