@@ -54,11 +54,10 @@
         android:layout_marginLeft="30dp"
         android:layout_marginTop="131dp"
         android:backgroundTint="@color/corFonte"
+        android:fontFamily="@font/alef"
         android:text="Área"
         android:textColor="@color/roxo"
-        android:textSize="14dp"
-        android:fontFamily="@font/alef"
-        />
+        android:textSize="14dp" />
 
     <Button
         android:id="@+id/btnEmpresa"
