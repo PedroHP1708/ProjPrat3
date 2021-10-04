@@ -13,7 +13,20 @@ public class Empresa implements Serializable {
     private String senha;
     private String descricao;
 
-    public Empresa(String nome, String cnpj, String endereco, String telefone, String email, String senha)
+    @Override
+    public String toString() {
+        return "Empresa{" +
+                "nome='" + nome + '\'' +
+                ", cnpj='" + cnpj + '\'' +
+                ", endereco='" + endereco + '\'' +
+                ", email='" + email + '\'' +
+                ", telefone='" + telefone + '\'' +
+                ", senha='" + senha + '\'' +
+                ", descricao='" + descricao + '\'' +
+                '}';
+    }
+
+    public Empresa(String nome, String cnpj, String endereco, String telefone, String email, String senha, String descricao)
     {
         this.nome = nome;
         this.cnpj = cnpj;
@@ -21,6 +34,7 @@ public class Empresa implements Serializable {
         this.email = email;
         this.telefone = telefone;
         this.senha = senha;
+        this.descricao = descricao;
     }
 
     public String getNome() {

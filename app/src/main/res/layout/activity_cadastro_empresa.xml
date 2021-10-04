@@ -162,7 +162,7 @@
         />
 
     <Button
-        android:id="@+id/btnContinuar1"
+        android:id="@+id/btnContinuar"
         android:layout_width="155dp"
         android:layout_height="40.79dp"
         android:layout_alignParentLeft="true"

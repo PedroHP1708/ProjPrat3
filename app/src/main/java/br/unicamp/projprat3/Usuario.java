@@ -1,16 +1,25 @@
 package br.unicamp.projprat3;
 
+import com.google.gson.annotations.SerializedName;
+
 import java.io.Serializable;
 
 public class Usuario implements Serializable {
 
+    @SerializedName("nome")
     private String nome;
+    @SerializedName("area")
     private String area;
+    @SerializedName("cpf")
     private String cpf;
+    @SerializedName("email")
     private String email;
+    @SerializedName("cidade")
     private String cidade;
     //fotoDePerfil varchar(1000) not null,
+    @SerializedName("senha")
     private String senha;
+    @SerializedName("descricao")
     private String descricao;
 
     public Usuario(String nome, String cpf, String area, String cidade, String email, String senha)

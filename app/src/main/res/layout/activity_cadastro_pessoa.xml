@@ -161,7 +161,7 @@
         />
 
     <Button
-        android:id="@+id/btnContinuar1"
+        android:id="@+id/btnContinuar"
         android:layout_width="155dp"
         android:layout_height="40.79dp"
         android:layout_alignParentLeft="true"
@@ -172,7 +172,7 @@
         android:fontFamily="@font/alef"
         android:text="Continuar"
         android:textColor="@color/roxo"
-        android:textSize="18dp"
-        android:textFontWeight="700"/>
+        android:textFontWeight="700"
+        android:textSize="18dp" />
 
 </RelativeLayout>
