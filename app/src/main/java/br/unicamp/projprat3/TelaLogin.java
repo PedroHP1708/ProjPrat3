@@ -43,7 +43,7 @@ public class TelaLogin extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //Voltar p tela de caadastro dps
-                Intent intent = new Intent(TelaLogin.this, TelaPrincipalEmpresa.class);
+                Intent intent = new Intent(TelaLogin.this, PerfilEmpresa.class);
                 startActivity(intent);
             }
         });
@@ -53,7 +53,7 @@ public class TelaLogin extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //Voltar p tela de caadastro dps
-                Intent intent = new Intent(TelaLogin.this, TelaPrincipalUsuario.class);
+                Intent intent = new Intent(TelaLogin.this, PerfilUsuario.class);
 
                 startActivity(intent);
             }

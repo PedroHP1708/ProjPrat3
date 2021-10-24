@@ -13,6 +13,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.GridView;
+import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
@@ -37,8 +38,10 @@ public class TelaPrincipalEmpresa extends AppCompatActivity {
 
     AlertDialog.Builder builder;
     AlertDialog dialog;
-    EditText edtTextoDialog;
+    EditText edtTextoDialog, edtBarraPesquisaEmp;
     Button btnConfirmar, btnCancelar;
+
+    ImageButton btnPesquisaEmpresa;
 
     String areaProc, localizacaoProc;
 
@@ -49,6 +52,9 @@ public class TelaPrincipalEmpresa extends AppCompatActivity {
 
         btnArea = (Button) findViewById(R.id.btnArea);
         btnLocalizacao = (Button) findViewById(R.id.btnLocalizacao);
+
+        btnPesquisaEmpresa   = (ImageButton) findViewById(R.id.btnPesquisaEmpresa);
+        edtBarraPesquisaEmp  = (EditText) findViewById(R.id.edtBarraPesquisaEmp);
 
         btnArea.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -63,6 +69,20 @@ public class TelaPrincipalEmpresa extends AppCompatActivity {
             public void onClick(View view) {
                 View v = LayoutInflater.from(TelaPrincipalEmpresa.this).inflate(R.layout.dialog_pesquisa_area,null, false);
                 mostrarDialog(0, v);
+            }
+        });
+
+        btnPesquisaEmpresa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(!edtBarraPesquisaEmp.getText().toString().equals(""))
+                {
+                    atualizarPesquisa(edtBarraPesquisaEmp.getText().toString(), 2);
+                }
+                else
+                {
+                    Toast.makeText(TelaPrincipalEmpresa.this, "Digite um usuário que deseja procurar", Toast.LENGTH_LONG).show();
+                }
             }
         });
 
@@ -96,7 +116,7 @@ public class TelaPrincipalEmpresa extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
                     areaProc = edtTextoDialog.getText().toString();
-                    atualizarPesquisa(listaResultado, areaProc, 1);
+                    atualizarPesquisa(areaProc, 1);
                     alertDialog.dismiss();
                 }
             });
@@ -109,7 +129,7 @@ public class TelaPrincipalEmpresa extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
                     localizacaoProc = edtTextoDialog.getText().toString();
-                    atualizarPesquisa(listaResultado, localizacaoProc, 0);
+                    atualizarPesquisa(localizacaoProc, 0);
                     alertDialog.dismiss();
                 }
             });
@@ -151,7 +171,7 @@ public class TelaPrincipalEmpresa extends AppCompatActivity {
         });
     }
 
-    private void atualizarPesquisa(List<Usuario> listaUsuario, String campoProc, int tipo)
+    private void atualizarPesquisa(String campoProc, int tipo)
     {
         //Download JSON via Retrofit
         Service service  = RetrofitConfig.getRetrofitInstance().create(Service.class);
@@ -166,22 +186,34 @@ public class TelaPrincipalEmpresa extends AppCompatActivity {
                 //Para atualizar, percorrer o response e comparar com os itens selecionadas nos botoes
                 if(response.isSuccessful()){
 
-                    if(tipo == 1)
+                    if(tipo == 0)
                     {
                         for(int pos = 0; pos < response.body().size(); pos++)
                         {
-                            if(response.body().get(pos).getArea().equals(campoProc) && campoProc != "")
+                            if(response.body().get(pos).getCidade().equals(campoProc) && !campoProc.equals(""))
                             {
                                 listaAtualizada.add(response.body().get(pos));
                             }
                         }
                     }
 
+                    else if(tipo == 1)
+                    {
+                        for(int pos = 0; pos < response.body().size(); pos++)
+                        {
+                            if(response.body().get(pos).getArea().equals(campoProc) && !campoProc.equals(""))
+                            {
+                                listaAtualizada.add(response.body().get(pos));
+                            }
+                        }
+                    }
+
+
                     else
                     {
                         for(int pos = 0; pos < response.body().size(); pos++)
                         {
-                            if(response.body().get(pos).getCidade().equals(campoProc) && campoProc != "")
+                            if(response.body().get(pos).getNome().equals(campoProc) && !campoProc.equals(""))
                             {
                                 listaAtualizada.add(response.body().get(pos));
                             }

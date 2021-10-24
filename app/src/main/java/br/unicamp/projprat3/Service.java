@@ -25,7 +25,7 @@ interface Service {
     @POST("/api/usuario")
     Call<Usuario> incluirUsuario(@Body Usuario usuario);
 
-    @PUT("/api/dog/{id}")
+    @PUT("/api/vaga/{id}")
     Call<Usuario> alterarUsuario(@Path("id") String id, @Body Usuario usuario);
 
     //Operacoes com empresa
@@ -57,6 +57,22 @@ interface Service {
     @POST("/api/vaga")
     Call<Vaga> incluirVaga(@Body Vaga vaga);
 
-    @PUT("/api/dog/{id}")
+    @PUT("/api/vaga/{id}")
     Call<Vaga> alterarVaga(@Path("id") String id, @Body Vaga vaga);
+
+    //Operacoes com vaga aplicada
+    @GET("/api/vagaAplicada")
+    Call<List<VagaAplicada>> getVagasAplicadas();
+
+    @GET("/api/vagaAplicada/{id}")
+    Call<VagaAplicada> getVagaAplicada(@Path("id") String id);
+
+    @DELETE("/api/vagaAplicada/{id}")
+    Call<VagaAplicada> excluirVagaAplicada(@Path("id") String id);
+
+    @POST("/api/vagaAplicada")
+    Call<VagaAplicada> incluirVagaAplicada(@Body VagaAplicada vagaAplicada);
+
+    @PUT("/api/vagaAplicada/{id}")
+    Call<VagaAplicada> alterarVagaAplicada(@Path("id") String id, @Body VagaAplicada vagaAplicada);
 }

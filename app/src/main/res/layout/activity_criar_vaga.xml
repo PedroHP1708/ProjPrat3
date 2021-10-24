@@ -134,7 +134,7 @@
 
 
     <Button
-        android:id="@+id/btnContinuar1"
+        android:id="@+id/btnCriar"
         android:layout_width="170dp"
         android:layout_height="52dp"
         android:layout_alignParentLeft="true"

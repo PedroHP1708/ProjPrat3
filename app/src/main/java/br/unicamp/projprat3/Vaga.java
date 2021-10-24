@@ -18,6 +18,15 @@ public class Vaga {
         this.salarioBase = salarioBase;
     }
 
+    public Vaga(String emailEmpresa, String titulo, String endereco, String area, int salarioBase)
+    {
+        this.emailEmpresa = emailEmpresa;
+        this.titulo = titulo;
+        this.endereco = endereco;
+        this.area = area;
+        this.salarioBase = salarioBase;
+    }
+
     public int getId() {
         return id;
     }
