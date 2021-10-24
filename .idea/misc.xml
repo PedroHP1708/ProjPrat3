@@ -3,14 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/pedro/AndroidStudioProjects/New folder/app/src/main/res/drawable/custom_btn.xml" value="0.2703125" />
         <entry key="..\:/Users/pedro/AndroidStudioProjects/New folder/app/src/main/res/drawable/custom_view.xml" value="0.2703125" />
         <entry key="..\:/Users/pedro/AndroidStudioProjects/New folder/app/src/main/res/layout/activity_cadastro_empresa.xml" value="0.23854166666666668" />
         <entry key="..\:/Users/pedro/AndroidStudioProjects/New folder/app/src/main/res/layout/activity_cadastro_pessoa.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/pedro/AndroidStudioProjects/New folder/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/pedro/AndroidStudioProjects/New folder/app/src/main/res/layout/activity_perfil_empresa.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/pedro/AndroidStudioProjects/New folder/app/src/main/res/layout/activity_perfil_usuario.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pedro/AndroidStudioProjects/New folder/app/src/main/res/layout/activity_perfil_usuario_clicado.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pedro/AndroidStudioProjects/New folder/app/src/main/res/layout/activity_tela_principal_empresa.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/pedro/AndroidStudioProjects/New folder/app/src/main/res/layout/activity_tela_principal_usuario.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/pedro/AndroidStudioProjects/New folder/app/src/main/res/layout/activity_tela_vaga.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pedro/AndroidStudioProjects/New folder/app/src/main/res/layout/dialog_pesquisa_area.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pedro/AndroidStudioProjects/New folder/app/src/main/res/layout/item_aplicacao_pendente.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pedro/AndroidStudioProjects/New folder/app/src/main/res/layout/item_empresa_pesquisa.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pedro/AndroidStudioProjects/New folder/app/src/main/res/layout/item_row.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pedro/AndroidStudioProjects/New folder/app/src/main/res/layout/item_usuario_pesquisa.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pedro/AndroidStudioProjects/New folder/app/src/main/res/layout/item_vaga_pesquisa.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/pedro/AndroidStudioProjects/ProjPrat3/app/src/main/res/drawable/custom_btn.xml" value="0.2703125" />
         <entry key="..\:/Users/pedro/AndroidStudioProjects/ProjPrat3/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
         <entry key="..\:/Users/pedro/AndroidStudioProjects/ProjPrat3/app/src/main/res/layout/activity_cadastro_empresa.xml" value="0.25416666666666665" />

@@ -34,7 +34,7 @@ public class PerfilEmpresa extends AppCompatActivity {
 
         Service service = RetrofitConfig.getRetrofitInstance().create(Service.class);
         //Pegar a rota do Json
-        Call<Empresa> call = service.getEmpresa(2);
+        Call<Empresa> call = service.getEmpresa("1234@gmail");
         if (call != null) {
             call.enqueue(new Callback<Empresa>() {
                 @Override

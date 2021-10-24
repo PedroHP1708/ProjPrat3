@@ -12,9 +12,12 @@ import retrofit2.http.Path;
 
 interface Service {
 
+    //Operacoes com empresa
+    @GET("/api/usuario")
+    Call<List<Usuario>> getUsuarios();
+
     @GET("/api/usuario/{id}")
-    //@GET("/api/dog/get/{id}")
-    Call<Usuario> getUsuario(@Path("id") int id);
+    Call<Usuario> getUsuario(@Path("id") String id);
 
     @DELETE("/api/usuario/{id}")
     Call<Usuario> excluirUsuario(@Path("id") String id);
@@ -25,8 +28,12 @@ interface Service {
     @PUT("/api/dog/{id}")
     Call<Usuario> alterarUsuario(@Path("id") String id, @Body Usuario usuario);
 
+    //Operacoes com empresa
+    @GET("/api/empresa")
+    Call<List<Empresa>> getEmpresas();
+
     @GET("/api/empresa/{id}")
-    Call<Empresa> getEmpresa(@Path("id") int id);
+    Call<Empresa> getEmpresa(@Path("id") String id);
 
     @DELETE("/api/empresa/{id}")
     Call<Empresa> excluirEmpresa(@Path("id") String id);
@@ -34,8 +41,22 @@ interface Service {
     @POST("/api/empresa")
     Call<Empresa> incluirEmpresa(@Body Empresa empresa);
 
-    @PUT("/api/dog/{id}")
+    @PUT("/api/empresa/{id}")
     Call<Empresa> alterarEmpresa(@Path("id") String id, @Body Empresa empresa);
 
-    /*CRIAR VAGA E VAGA APLICADA*/
+    //Operacoes com vagas
+    @GET("/api/vaga")
+    Call<List<Vaga>> getVagas();
+
+    @GET("/api/vaga/{id}")
+    Call<Vaga> getVaga(@Path("id") String id);
+
+    @DELETE("/api/vaga/{id}")
+    Call<Vaga> excluirVaga(@Path("id") String id);
+
+    @POST("/api/vaga")
+    Call<Vaga> incluirVaga(@Body Vaga vaga);
+
+    @PUT("/api/dog/{id}")
+    Call<Vaga> alterarVaga(@Path("id") String id, @Body Vaga vaga);
 }

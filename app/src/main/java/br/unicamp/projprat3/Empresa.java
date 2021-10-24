@@ -9,24 +9,11 @@ public class Empresa implements Serializable {
     private String endereco;
     private String email;
     private String telefone;
-    //fotoDePerfil varchar(1000) not null,
+    private String fotoDePerfil;
     private String senha;
     private String descricao;
 
-    @Override
-    public String toString() {
-        return "Empresa{" +
-                "nome='" + nome + '\'' +
-                ", cnpj='" + cnpj + '\'' +
-                ", endereco='" + endereco + '\'' +
-                ", email='" + email + '\'' +
-                ", telefone='" + telefone + '\'' +
-                ", senha='" + senha + '\'' +
-                ", descricao='" + descricao + '\'' +
-                '}';
-    }
-
-    public Empresa(String nome, String cnpj, String endereco, String telefone, String email, String senha, String descricao)
+    public Empresa(String nome, String cnpj, String endereco, String telefone, String email, String foto, String senha, String descricao)
     {
         this.nome = nome;
         this.cnpj = cnpj;
@@ -35,6 +22,7 @@ public class Empresa implements Serializable {
         this.telefone = telefone;
         this.senha = senha;
         this.descricao = descricao;
+        this.fotoDePerfil = foto;
     }
 
     public String getNome() {
@@ -77,6 +65,10 @@ public class Empresa implements Serializable {
         this.telefone = telefone;
     }
 
+    public String getFotoDePerfil() { return fotoDePerfil; }
+
+    public void setFotoDePerfil(String fotoDePerfil) { this.fotoDePerfil = fotoDePerfil; }
+
     public String getSenha() {
         return senha;
     }
@@ -91,6 +83,20 @@ public class Empresa implements Serializable {
 
     public void setDescricao(String descricao) {
         this.descricao = descricao;
+    }
+
+    @Override
+    public String toString() {
+        return "Empresa{" +
+                "nome='" + nome + '\'' +
+                ", cnpj='" + cnpj + '\'' +
+                ", endereco='" + endereco + '\'' +
+                ", email='" + email + '\'' +
+                ", telefone='" + telefone + '\'' +
+                ", fotoDePerfil='" + fotoDePerfil + '\'' +
+                ", senha='" + senha + '\'' +
+                ", descricao='" + descricao + '\'' +
+                '}';
     }
 
 }

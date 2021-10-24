@@ -37,7 +37,7 @@ public class CadastroEmpresa extends AppCompatActivity {
                 if(!edtNome.getText().toString().equals("") && !edtCnpj.getText().toString().equals("") && !edtEndereco.getText().toString().equals("") && !edtTelefone.getText().toString().equals("") && !edtEmail.getText().toString().equals("") && !edtSenha.getText().toString().equals(""))
                 {
                     Service service = RetrofitConfig.getRetrofitInstance().create((Service.class));
-                    Empresa emp = new Empresa(edtNome.getText().toString(), edtCnpj.getText().toString(), edtEndereco.getText().toString(), edtTelefone.getText().toString(), edtEmail.getText().toString(), edtSenha.getText().toString(), "");
+                    Empresa emp = new Empresa(edtNome.getText().toString(), edtCnpj.getText().toString(), edtEndereco.getText().toString(), edtTelefone.getText().toString(), edtEmail.getText().toString(), ".", edtSenha.getText().toString(), ".");
                     Call<Empresa> call = service.incluirEmpresa(emp);
                     call.enqueue(new Callback<Empresa>() {
                         @Override
@@ -45,14 +45,14 @@ public class CadastroEmpresa extends AppCompatActivity {
                             if (response.isSuccessful()) {
                                 Toast.makeText(CadastroEmpresa.this, "Ocorreu um erro na requisicao", Toast.LENGTH_SHORT).show();
                             }
+                            Toast.makeText(CadastroEmpresa.this, emp.toString(), Toast.LENGTH_SHORT).show();
                         }
 
                         @Override
                         public void onFailure(Call<Empresa> call, Throwable t) {
 
-                            Intent intent = new Intent(CadastroEmpresa.this, PerfilEmpresa.class);
+                            Intent intent = new Intent(CadastroEmpresa.this, TelaPrincipalEmpresa.class);
                             intent.putExtra("empresaSerializable", emp);
-                            finish();
                             startActivity(intent);
                         }
                     });

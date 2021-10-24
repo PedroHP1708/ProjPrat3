@@ -30,16 +30,15 @@ public class PerfilUsuario extends AppCompatActivity {
         edtEmail  = (EditText) findViewById(R.id.edtEmail);
         edtSenha  = (EditText) findViewById(R.id.edtSenha);
 
-        //Intent intent = getIntent();
-        //Usuario usuario = (Usuario) intent.getSerializableExtra("usuarioSerializable");
+        Intent intent = getIntent();
+        Usuario usuario = (Usuario) intent.getSerializableExtra("usuarioSerializable");
 
         //MUDAR ID PARA DEIXAR DE SER IDENTITY
 
         Service service  = RetrofitConfig.getRetrofitInstance().create(Service.class);
         //Pegar a rota do Json
-        Call<Usuario> call = service.getUsuario(1);
+        Call<Usuario> call = service.getUsuario(usuario.getEmail());
         if(call != null) {
-            edtNome.setText(call.toString());
             call.enqueue(new Callback<Usuario>() {
                 @Override
                 public void onResponse(Call<Usuario> call, Response<Usuario> response) {
@@ -56,10 +55,6 @@ public class PerfilUsuario extends AppCompatActivity {
                         edtSenha.setText(user.getSenha());
                     } else {
                         String errorMessage = response.errorBody().toString();
-                        Toast.makeText(PerfilUsuario.this, "" + response.body(), Toast.LENGTH_LONG).show();
-                        Toast.makeText(PerfilUsuario.this, "" + response.body(), Toast.LENGTH_LONG).show();
-                        Toast.makeText(PerfilUsuario.this, "" + response.body(), Toast.LENGTH_LONG).show();
-                        Toast.makeText(PerfilUsuario.this, "" + response.body(), Toast.LENGTH_LONG).show();
                         Toast.makeText(PerfilUsuario.this, "entrou no else do response", Toast.LENGTH_LONG).show();
                     }
 
@@ -67,12 +62,6 @@ public class PerfilUsuario extends AppCompatActivity {
 
                 @Override
                 public void onFailure(Call<Usuario> call, Throwable t) {
-                    //myProgessBar.setVisibility(View.GONE);
-                    String messageProblem = t.getMessage().toString();
-                    Toast.makeText(PerfilUsuario.this, messageProblem, Toast.LENGTH_LONG).show();
-                    Toast.makeText(PerfilUsuario.this, messageProblem, Toast.LENGTH_LONG).show();
-                    Toast.makeText(PerfilUsuario.this, messageProblem, Toast.LENGTH_LONG).show();
-                    Toast.makeText(PerfilUsuario.this, messageProblem, Toast.LENGTH_LONG).show();
                     Toast.makeText(PerfilUsuario.this, "failure", Toast.LENGTH_LONG).show();
                 }
             });

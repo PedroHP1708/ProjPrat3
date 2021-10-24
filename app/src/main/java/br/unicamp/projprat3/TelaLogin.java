@@ -10,6 +10,12 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
+import java.util.List;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+
 public class TelaLogin extends AppCompatActivity {
 
     Button btnEmp, btnPes, btnEntrar;
@@ -32,24 +38,28 @@ public class TelaLogin extends AppCompatActivity {
         edtEmail = (EditText) findViewById(R.id.edtEmail);
         edtSenha = (EditText) findViewById(R.id.edtSenha);
 
+        //Abrir tela de cadastro de empresa
         btnEmp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(TelaLogin.this, CadastroEmpresa.class);
+                //Voltar p tela de caadastro dps
+                Intent intent = new Intent(TelaLogin.this, TelaPrincipalEmpresa.class);
                 startActivity(intent);
-                finish();
             }
         });
 
+        //Abrir tela de cadastro de usuario
         btnPes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(TelaLogin.this, CadastroPessoa.class);
+                //Voltar p tela de caadastro dps
+                Intent intent = new Intent(TelaLogin.this, TelaPrincipalUsuario.class);
+
                 startActivity(intent);
-                finish();
             }
         });
 
+        //Verificar a existencia do cadastro para abrir o respectivo perfil
         btnEntrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -58,11 +68,14 @@ public class TelaLogin extends AppCompatActivity {
                         Intent intent = new Intent(TelaLogin.this, PerfilEmpresa.class);
                         finish();
                         startActivity(intent);
-                    } else if (rbPes.isChecked()) {
+                    }
+
+                    else if (rbPes.isChecked()) {
                         Intent intent = new Intent(TelaLogin.this, PerfilUsuario.class);
                         finish();
                         startActivity(intent);
                     }
+
                     else
                     {
                         Toast.makeText(TelaLogin.this, "Selecione um tipo de conta", Toast.LENGTH_SHORT).show();

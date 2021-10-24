@@ -20,7 +20,7 @@
         android:layout_height="41dp"
         android:layout_marginTop="43dp"
         android:layout_marginLeft="75dp"
-        android:text="Pesquisar Vagas"
+        android:hint="Pesquisar Vagas"
         android:background="@drawable/custom_barra_pesquisa"
         />
 
@@ -104,6 +104,19 @@
         android:background="#B5CEFF"
         android:focusable="false" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp">
 
+        <GridView
+            android:id="@+id/vagaGridView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="1"
+            android:verticalSpacing="20dp"
+            android:horizontalSpacing="10dp"/>
+
+    </LinearLayout>
 
 </RelativeLayout>

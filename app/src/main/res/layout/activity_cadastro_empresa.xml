@@ -39,6 +39,7 @@
         android:layout_height="30dp"
         android:layout_marginLeft="114dp"
         android:layout_marginTop="141dp"
+        android:textColor="@color/white"
         android:background="@drawable/custom_edt"
         />
 
@@ -63,6 +64,7 @@
         android:layout_height="30dp"
         android:layout_marginLeft="114dp"
         android:layout_marginTop="195dp"
+        android:textColor="@color/white"
         android:background="@drawable/custom_edt"
         />
 
@@ -87,6 +89,7 @@
         android:layout_height="30dp"
         android:layout_marginLeft="114dp"
         android:layout_marginTop="248dp"
+        android:textColor="@color/white"
         android:background="@drawable/custom_edt"/>
 
     <TextView
@@ -110,6 +113,7 @@
         android:layout_height="30dp"
         android:layout_marginLeft="114dp"
         android:layout_marginTop="303dp"
+        android:textColor="@color/white"
         android:background="@drawable/custom_edt"
         />
 
@@ -134,6 +138,7 @@
         android:layout_height="30dp"
         android:layout_marginLeft="114dp"
         android:layout_marginTop="353dp"
+        android:textColor="@color/white"
         android:background="@drawable/custom_edt"
         />
 
@@ -158,6 +163,7 @@
         android:layout_height="30dp"
         android:layout_marginLeft="114dp"
         android:layout_marginTop="406dp"
+        android:textColor="@color/white"
         android:background="@drawable/custom_edt"
         />
 

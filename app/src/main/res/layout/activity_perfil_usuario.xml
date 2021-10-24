@@ -32,6 +32,7 @@
         android:layout_height="30dp"
         android:layout_marginLeft="165dp"
         android:layout_marginTop="53dp"
+        android:textColor="@color/white"
         android:background="@drawable/custom_edt" />
 
 
@@ -56,6 +57,7 @@
         android:layout_height="30dp"
         android:layout_marginLeft="165dp"
         android:layout_marginTop="103dp"
+        android:textColor="@color/white"
         android:background="@drawable/custom_edt" />
 
     <TextView
@@ -79,6 +81,7 @@
         android:layout_height="30dp"
         android:layout_marginLeft="165dp"
         android:layout_marginTop="153dp"
+        android:textColor="@color/white"
         android:background="@drawable/custom_edt" />
 
     <TextView
@@ -101,6 +104,7 @@
         android:layout_height="30dp"
         android:layout_marginLeft="165dp"
         android:layout_marginTop="203dp"
+        android:textColor="@color/white"
         android:background="@drawable/custom_edt" />
 
     <TextView
@@ -123,6 +127,7 @@
         android:layout_height="30dp"
         android:layout_marginLeft="165dp"
         android:layout_marginTop="253dp"
+        android:textColor="@color/white"
         android:background="@drawable/custom_edt" />
 
     <TextView
@@ -146,6 +151,7 @@
         android:layout_height="30dp"
         android:layout_marginLeft="165dp"
         android:layout_marginTop="303dp"
+        android:textColor="@color/white"
         android:background="@drawable/custom_edt" />
 
     <View
