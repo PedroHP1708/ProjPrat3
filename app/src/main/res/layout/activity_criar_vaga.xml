@@ -40,7 +40,8 @@
         android:layout_marginLeft="114dp"
         android:layout_marginTop="141dp"
         android:background="@drawable/custom_edt"
-        />
+        android:textColor="@color/white"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <TextView
         android:layout_width="80dp"
@@ -63,7 +64,8 @@
         android:layout_marginLeft="114dp"
         android:layout_marginTop="195dp"
         android:background="@drawable/custom_edt"
-        />
+        android:textColor="@color/white"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     <TextView
         android:layout_width="58dp"
@@ -85,7 +87,9 @@
         android:layout_height="30dp"
         android:layout_marginLeft="114dp"
         android:layout_marginTop="248dp"
-        android:background="@drawable/custom_edt"/>
+        android:background="@drawable/custom_edt"
+        android:textColor="@color/white"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <TextView
         android:layout_width="78dp"
@@ -107,7 +111,9 @@
         android:layout_height="60dp"
         android:layout_marginLeft="114dp"
         android:layout_marginTop="303dp"
-        android:background="@drawable/custom_edt" />
+        android:background="@drawable/custom_edt"
+        android:textColor="@color/white"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:layout_width="49dp"
@@ -130,7 +136,8 @@
         android:layout_marginLeft="114dp"
         android:layout_marginTop="393dp"
         android:background="@drawable/custom_edt"
-        />
+        android:textColor="@color/white"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
 
     <Button
@@ -145,7 +152,7 @@
         android:fontFamily="@font/alef"
         android:text="Criar"
         android:textColor="@color/roxo"
-        android:textSize="18dp"
-        android:textFontWeight="700"/>
+        android:textFontWeight="700"
+        android:textSize="18dp" />
 
 </RelativeLayout>
