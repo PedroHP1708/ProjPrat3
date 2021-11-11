@@ -37,7 +37,7 @@ public class CadastroPessoa extends AppCompatActivity {
                 if(!edtNome.getText().toString().equals("") && !edtCpf.getText().toString().equals("") && !edtArea.getText().toString().equals("") && !edtCidade.getText().toString().equals("") && !edtEmail.getText().toString().equals("") && !edtSenha.getText().toString().equals(""))
                 {
                     Service service = RetrofitConfig.getRetrofitInstance().create((Service.class));
-                    Usuario pes = new Usuario(edtEmail.getText().toString(), edtNome.getText().toString(), edtArea.getText().toString(), edtCpf.getText().toString(),  edtCidade.getText().toString(),"", edtSenha.getText().toString(), "");
+                    Usuario pes = new Usuario(edtEmail.getText().toString(), edtNome.getText().toString(), edtCpf.getText().toString(), edtArea.getText().toString(), edtCidade.getText().toString(),"", edtSenha.getText().toString(), "");
                     Call<Usuario> call = service.incluirUsuario(pes);
                     call.enqueue(new Callback<Usuario>() {
                         @Override

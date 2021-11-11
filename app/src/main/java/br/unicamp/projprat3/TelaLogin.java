@@ -43,7 +43,7 @@ public class TelaLogin extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //Voltar p tela de caadastro dps
-                Intent intent = new Intent(TelaLogin.this, PerfilEmpresa.class);
+                Intent intent = new Intent(TelaLogin.this, CriarVaga.class);
                 startActivity(intent);
             }
         });
@@ -65,15 +65,81 @@ public class TelaLogin extends AppCompatActivity {
             public void onClick(View view) {
                 if(!edtEmail.getText().toString().equals("") && !edtSenha.getText().toString().equals("")) {
                     if (rbEmp.isChecked()) {
-                        Intent intent = new Intent(TelaLogin.this, PerfilEmpresa.class);
-                        finish();
-                        startActivity(intent);
+                        Service service  = RetrofitConfig.getRetrofitInstance().create(Service.class);
+                        //Pegar a rota do Json
+                        Call<Empresa> call = service.getEmpresa(edtEmail.getText().toString());
+                        if(call != null) {
+                            call.enqueue(new Callback<Empresa>() {
+                                @Override
+                                public void onResponse(Call<Empresa> call, Response<Empresa> response) {
+
+                                    if (response.isSuccessful()) {
+                                        if (response.body().getSenha().equals(edtSenha.getText().toString()))
+                                        {
+                                            Empresa emp = (Empresa) response.body();
+                                            Intent intent = new Intent(TelaLogin.this, PerfilEmpresa.class);
+                                            intent.putExtra("empresaSerializable", emp);
+                                            //finish();
+                                            startActivity(intent);
+
+                                        }
+                                        else
+                                        {
+                                            Toast.makeText(TelaLogin.this, "Senha incorreta", Toast.LENGTH_LONG).show();
+                                        }
+                                    }
+                                    else {
+                                        String errorMessage = response.errorBody().toString();
+                                        Toast.makeText(TelaLogin.this, "Essa conta nao existe", Toast.LENGTH_LONG).show();
+                                    }
+
+                                }
+
+                                @Override
+                                public void onFailure(Call<Empresa> call, Throwable t) {
+                                    Toast.makeText(TelaLogin.this, "Erro", Toast.LENGTH_LONG).show();
+                                }
+                            });
+                        }
                     }
 
                     else if (rbPes.isChecked()) {
-                        Intent intent = new Intent(TelaLogin.this, PerfilUsuario.class);
-                        finish();
-                        startActivity(intent);
+                        Service service  = RetrofitConfig.getRetrofitInstance().create(Service.class);
+                        //Pegar a rota do Json
+                        Call<Usuario> call = service.getUsuario(edtEmail.getText().toString());
+                        if(call != null) {
+                            call.enqueue(new Callback<Usuario>() {
+                                @Override
+                                public void onResponse(Call<Usuario> call, Response<Usuario> response) {
+
+                                    if (response.isSuccessful()) {
+                                        if (response.body().getSenha().equals(edtSenha.getText().toString()))
+                                        {
+                                            Usuario user = (Usuario) response.body();
+                                            Intent intent = new Intent(TelaLogin.this, PerfilUsuario.class);
+                                            intent.putExtra("usuarioSerializable", user);
+                                            //finish();
+                                            startActivity(intent);
+
+                                        }
+                                        else
+                                        {
+                                            Toast.makeText(TelaLogin.this, "Senha incorreta", Toast.LENGTH_LONG).show();
+                                        }
+                                    }
+                                    else {
+                                        String errorMessage = response.errorBody().toString();
+                                        Toast.makeText(TelaLogin.this, "Essa conta nao existe", Toast.LENGTH_LONG).show();
+                                    }
+
+                                }
+
+                                @Override
+                                public void onFailure(Call<Usuario> call, Throwable t) {
+                                    Toast.makeText(TelaLogin.this, "Erro", Toast.LENGTH_LONG).show();
+                                }
+                            });
+                        }
                     }
 
                     else

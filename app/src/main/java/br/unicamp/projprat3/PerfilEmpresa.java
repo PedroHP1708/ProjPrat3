@@ -49,7 +49,7 @@ public class PerfilEmpresa extends AppCompatActivity {
 
         Service service = RetrofitConfig.getRetrofitInstance().create(Service.class);
         //Pegar a rota do Json
-        Call<Empresa> call = service.getEmpresa("netflix@gmail.com");
+        Call<Empresa> call = service.getEmpresa("disney@gmail.com");
         if (call != null) {
             call.enqueue(new Callback<Empresa>() {
                 @Override
@@ -164,7 +164,8 @@ public class PerfilEmpresa extends AppCompatActivity {
             {
                 for(int p = 0; p < listaVagasAplicadas.size(); p++)
                 {
-                    if(listaVaga.get(pos).getId() == listaVagasAplicadas.get(p).getIdVaga() && listaVaga.get(pos).getEmailEmpresa().equals(emp.getEmail()))
+                    if(listaVaga.get(pos).getId() == listaVagasAplicadas.get(p).getIdVaga() && listaVaga.get(pos).getEmailEmpresa().equals(emp.getEmail()) &&
+                            listaVagasAplicadas.get(p).getSituacao().equals("Em analise"))
                         listaFinal.add(listaVagasAplicadas.get(p));
                 }
             }

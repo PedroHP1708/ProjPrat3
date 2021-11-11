@@ -54,8 +54,9 @@ interface Service {
     @DELETE("/api/vaga/{id}")
     Call<Vaga> excluirVaga(@Path("id") String id);
 
+    // Alteração para criar vaga
     @POST("/api/vaga")
-    Call<Vaga> incluirVaga(@Body Vaga vaga);
+    Call<VagaAInserir> incluirVaga(@Body VagaAInserir vaga);
 
     @PUT("/api/vaga/{id}")
     Call<Vaga> alterarVaga(@Path("id") String id, @Body Vaga vaga);
@@ -74,5 +75,5 @@ interface Service {
     Call<VagaAplicada> incluirVagaAplicada(@Body VagaAplicada vagaAplicada);
 
     @PUT("/api/vagaAplicada/{id}")
-    Call<VagaAplicada> alterarVagaAplicada(@Path("id") String id, @Body VagaAplicada vagaAplicada);
+    Call<VagaAplicada> alterarVagaAplicada(@Path("id") Integer id, @Body VagaAplicada vagaAplicada);
 }

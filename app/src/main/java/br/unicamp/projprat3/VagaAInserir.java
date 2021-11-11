@@ -1,38 +1,20 @@
 package br.unicamp.projprat3;
 
-public class Vaga {
-    private int id;
+public class VagaAInserir {
+
     private String emailEmpresa;
     private String titulo;
     private String endereco;
     private String area;
-    private int salarioBase;
+    private double salarioBase;
 
-    public Vaga(int id, String emailEmpresa, String titulo, String endereco, String area, int salarioBase)
-    {
-        this.id = id;
-        this.emailEmpresa = emailEmpresa;
-        this.titulo = titulo;
-        this.endereco = endereco;
-        this.area = area;
-        this.salarioBase = salarioBase;
-    }
-
-    public Vaga(String emailEmpresa, String titulo, String endereco, String area, int salarioBase)
+    public VagaAInserir(String emailEmpresa, String titulo, String endereco, String area, double salarioBase)
     {
         this.emailEmpresa = emailEmpresa;
         this.titulo = titulo;
         this.endereco = endereco;
         this.area = area;
         this.salarioBase = salarioBase;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getEmailEmpresa() {
@@ -67,19 +49,18 @@ public class Vaga {
         this.area = area;
     }
 
-    public int getSalarioBase() {
+    public double getSalarioBase() {
         return salarioBase;
     }
 
-    public void setSalarioBase(int salarioBase) {
+    public void setSalarioBase(double salarioBase) {
         this.salarioBase = salarioBase;
     }
 
     @Override
     public String toString() {
-        return "Vaga{" +
-                "id=" + id +
-                ", emailEmpresa='" + emailEmpresa + '\'' +
+        return "VagaAInserir{" +
+                "emailEmpresa='" + emailEmpresa + '\'' +
                 ", titulo='" + titulo + '\'' +
                 ", endereco='" + endereco + '\'' +
                 ", area='" + area + '\'' +

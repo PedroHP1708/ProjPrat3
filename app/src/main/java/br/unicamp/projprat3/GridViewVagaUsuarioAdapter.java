@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.io.Serializable;
 import java.util.List;
@@ -50,6 +51,7 @@ public class GridViewVagaUsuarioAdapter extends BaseAdapter {
 
         TextView tvItemNomeEmpresa = view.findViewById(R.id.tvItemNomeEmpresa);
         TextView tvItemSituacaoVaga = view.findViewById(R.id.tvItemSituacaoVaga);
+        Button btnContato = view.findViewById(R.id.btnContato);
 
         VagaAplicada vagaAp = listaVagaAplicada.get(position);
         Empresa emp = null;
@@ -71,11 +73,32 @@ public class GridViewVagaUsuarioAdapter extends BaseAdapter {
         tvItemNomeUsuario.setText(usuario.getNome());
         tvItemTituloVaga.setText(vaga.getTitulo());*/
 
-
+        Vaga v = vaga;
         tvItemNomeEmpresa.setText(vaga.getEmailEmpresa());
         tvItemSituacaoVaga.setText(vagaAp.getSituacao());
 
+        btnContato.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                comporEmail(new String[] {v.getEmailEmpresa()});
+            }
+        });
 
         return view;
+    }
+
+    public void comporEmail(String[] endereco) {
+        String[] recipients = endereco;
+
+        //String subject = mEditTextSubject.getText().toString();
+        //String message = mEditTextMessage.getText().toString();
+
+        Intent intent = new Intent(Intent.ACTION_SEND);
+        intent.putExtra(Intent.EXTRA_EMAIL, recipients);
+        //intent.putExtra(Intent.EXTRA_SUBJECT,  situacao + " de aplicação de vaga");
+        //intent.putExtra(Intent.EXTRA_TEXT, message);
+
+        intent.setType("message/rfc822");
+        context.startActivity(Intent.createChooser(intent, "Choose an email client"));
     }
 }
