@@ -1,14 +1,19 @@
 package br.unicamp.projprat3;
 
-public class Vaga {
+import com.google.gson.annotations.SerializedName;
+
+import java.io.Serializable;
+
+public class Vaga implements Serializable {
     private int id;
     private String emailEmpresa;
     private String titulo;
     private String endereco;
     private String area;
     private int salarioBase;
+    private String descricao;
 
-    public Vaga(int id, String emailEmpresa, String titulo, String endereco, String area, int salarioBase)
+    public Vaga(int id, String emailEmpresa, String titulo, String endereco, String area, int salarioBase, String descricao)
     {
         this.id = id;
         this.emailEmpresa = emailEmpresa;
@@ -16,15 +21,17 @@ public class Vaga {
         this.endereco = endereco;
         this.area = area;
         this.salarioBase = salarioBase;
+        this.descricao = descricao;
     }
 
-    public Vaga(String emailEmpresa, String titulo, String endereco, String area, int salarioBase)
+    public Vaga(String emailEmpresa, String titulo, String endereco, String area, int salarioBase, String descricao)
     {
         this.emailEmpresa = emailEmpresa;
         this.titulo = titulo;
         this.endereco = endereco;
         this.area = area;
         this.salarioBase = salarioBase;
+        this.descricao = descricao;
     }
 
     public int getId() {
@@ -75,6 +82,14 @@ public class Vaga {
         this.salarioBase = salarioBase;
     }
 
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
     @Override
     public String toString() {
         return "Vaga{" +
@@ -84,6 +99,7 @@ public class Vaga {
                 ", endereco='" + endereco + '\'' +
                 ", area='" + area + '\'' +
                 ", salarioBase=" + salarioBase +
+                ", descricao='" + descricao + '\'' +
                 '}';
     }
 }

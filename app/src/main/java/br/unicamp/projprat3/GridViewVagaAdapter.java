@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.io.Serializable;
 import java.util.List;
@@ -76,9 +77,12 @@ IMAGEM DE PERFIL DPS
         btnDetalhes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Vaga vagaPassada = new Vaga(vaga.getId(), vaga.getEmailEmpresa(), vaga.getTitulo(), vaga.getEndereco(), vaga.getArea(), vaga.getSalarioBase());
+                Vaga vagaPassada = new Vaga(vaga.getId(), vaga.getEmailEmpresa(), vaga.getTitulo(), vaga.getEndereco(), vaga.getArea(), vaga.getSalarioBase(), vaga.getDescricao());
                 Intent in = new Intent(context, TelaVaga.class);
-                in.putExtra("vagaSerializable", (Serializable) vagaPassada);
+
+                Toast.makeText(context, vagaPassada.toString(), Toast.LENGTH_SHORT).show();
+
+                in.putExtra("vagaClicada", (Serializable) vagaPassada);
                 context.startActivity(in);
             }
         });

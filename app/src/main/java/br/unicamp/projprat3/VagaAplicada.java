@@ -13,6 +13,12 @@ public class VagaAplicada {
         this.situacao = situacao;
     }
 
+    public VagaAplicada(int idVaga, String emailUsuario, String situacao) {
+        this.idVaga = idVaga;
+        this.emailUsuario = emailUsuario;
+        this.situacao = situacao;
+    }
+
     public int getId() {
         return id;
     }

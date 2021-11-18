@@ -7,14 +7,16 @@ public class VagaAInserir {
     private String endereco;
     private String area;
     private double salarioBase;
+    private String descricao;
 
-    public VagaAInserir(String emailEmpresa, String titulo, String endereco, String area, double salarioBase)
+    public VagaAInserir(String emailEmpresa, String titulo, String endereco, String area, double salarioBase, String descricao)
     {
         this.emailEmpresa = emailEmpresa;
         this.titulo = titulo;
         this.endereco = endereco;
         this.area = area;
         this.salarioBase = salarioBase;
+        this.descricao = descricao;
     }
 
     public String getEmailEmpresa() {
@@ -57,6 +59,14 @@ public class VagaAInserir {
         this.salarioBase = salarioBase;
     }
 
+    public String getDetalhes() {
+        return descricao;
+    }
+
+    public void setDetalhes(String detalhes) {
+        this.descricao = detalhes;
+    }
+
     @Override
     public String toString() {
         return "VagaAInserir{" +
@@ -65,6 +75,7 @@ public class VagaAInserir {
                 ", endereco='" + endereco + '\'' +
                 ", area='" + area + '\'' +
                 ", salarioBase=" + salarioBase +
+                ", detalhes='" + descricao + '\'' +
                 '}';
     }
 }

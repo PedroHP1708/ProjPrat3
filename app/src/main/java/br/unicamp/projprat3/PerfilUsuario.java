@@ -19,7 +19,7 @@ import retrofit2.Response;
 
 public class PerfilUsuario extends AppCompatActivity {
 
-    EditText edtNome, edtCpf, edtCidade, edtArea, edtEmail, edtSenha;
+    EditText edtNome, edtCpf, edtCidade, edtArea, edtEmail, edtSenha, edtDescricao;
 
     GridView vagaGridView;
     private GridViewVagaUsuarioAdapter adapter;
@@ -39,6 +39,7 @@ public class PerfilUsuario extends AppCompatActivity {
         edtArea   = (EditText) findViewById(R.id.edtArea);
         edtEmail  = (EditText) findViewById(R.id.edtEmail);
         edtSenha  = (EditText) findViewById(R.id.edtSenha);
+        edtDescricao = (EditText) findViewById(R.id.edtDescricao);
 
         //Intent intent = getIntent();
         //Usuario usuario = (Usuario) intent.getSerializableExtra("usuarioSerializable");
@@ -63,6 +64,7 @@ public class PerfilUsuario extends AppCompatActivity {
                         edtArea.setText(user.getArea());
                         edtEmail.setText(user.getEmail());
                         edtSenha.setText(user.getSenha());
+                        edtDescricao.setText((user.getDescricao()));
                         usu = user;
                     } else {
                         String errorMessage = response.errorBody().toString();
