@@ -99,9 +99,9 @@
         android:layout_height="150dp"
         android:layout_marginLeft="40dp"
         android:layout_marginTop="391dp"
-        android:textColor="@color/white"
+        android:background="@drawable/custom_edt"
         android:enabled="false"
-        android:background="@drawable/custom_edt" />
+        android:textColor="@color/white" />
 
 
     <Button
