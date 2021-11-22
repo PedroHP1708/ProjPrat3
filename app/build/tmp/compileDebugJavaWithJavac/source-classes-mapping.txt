@@ -1,0 +1,125 @@
+br/unicamp/projprat3/Vaga.java
+ br.unicamp.projprat3.Vaga
+br/unicamp/projprat3/Empresa.java
+ br.unicamp.projprat3.Empresa
+br/unicamp/projprat3/RetrofitConfig.java
+ br.unicamp.projprat3.RetrofitConfig
+br/unicamp/projprat3/VagaAplicada.java
+ br.unicamp.projprat3.VagaAplicada
+br/unicamp/projprat3/BuildConfig.java
+ br.unicamp.projprat3.BuildConfig
+br/unicamp/projprat3/databinding/ActivityMainBinding.java
+ br.unicamp.projprat3.databinding.ActivityMainBinding
+br/unicamp/projprat3/Usuario.java
+ br.unicamp.projprat3.Usuario
+br/unicamp/projprat3/GridViewVagaUsuarioAdapter.java
+ br.unicamp.projprat3.GridViewVagaUsuarioAdapter
+ br.unicamp.projprat3.GridViewVagaUsuarioAdapter$1
+br/unicamp/projprat3/databinding/ActivityPerfilEmpresaBinding.java
+ br.unicamp.projprat3.databinding.ActivityPerfilEmpresaBinding
+br/unicamp/projprat3/databinding/ItemVagaUsuarioBinding.java
+ br.unicamp.projprat3.databinding.ItemVagaUsuarioBinding
+br/unicamp/projprat3/databinding/ActivityPerfilUsuarioClicadoBinding.java
+ br.unicamp.projprat3.databinding.ActivityPerfilUsuarioClicadoBinding
+br/unicamp/projprat3/databinding/ActivityPerfilUsuarioBinding.java
+ br.unicamp.projprat3.databinding.ActivityPerfilUsuarioBinding
+br/unicamp/projprat3/databinding/ActivityCadastroPessoaBinding.java
+ br.unicamp.projprat3.databinding.ActivityCadastroPessoaBinding
+br/unicamp/projprat3/databinding/ActivityCriarVagaBinding.java
+ br.unicamp.projprat3.databinding.ActivityCriarVagaBinding
+br/unicamp/projprat3/PerfilUsuarioClicado.java
+ br.unicamp.projprat3.PerfilUsuarioClicado
+ br.unicamp.projprat3.PerfilUsuarioClicado$1
+br/unicamp/projprat3/databinding/DialogPesquisaAreaBinding.java
+ br.unicamp.projprat3.databinding.DialogPesquisaAreaBinding
+br/unicamp/projprat3/TelaVaga.java
+ br.unicamp.projprat3.TelaVaga
+br/unicamp/projprat3/databinding/ItemAplicacaoPendenteBinding.java
+ br.unicamp.projprat3.databinding.ItemAplicacaoPendenteBinding
+br/unicamp/projprat3/databinding/ActivityCadastroEmpresaBinding.java
+ br.unicamp.projprat3.databinding.ActivityCadastroEmpresaBinding
+br/unicamp/projprat3/GridViewUsuarioAdapter.java
+ br.unicamp.projprat3.GridViewUsuarioAdapter
+ br.unicamp.projprat3.GridViewUsuarioAdapter$1
+br/unicamp/projprat3/databinding/ActivityTelaPrincipalEmpresaBinding.java
+ br.unicamp.projprat3.databinding.ActivityTelaPrincipalEmpresaBinding
+br/unicamp/projprat3/databinding/ActivityTelaVagaBinding.java
+ br.unicamp.projprat3.databinding.ActivityTelaVagaBinding
+br/unicamp/projprat3/databinding/ActivityTelaPrincipalUsuarioBinding.java
+ br.unicamp.projprat3.databinding.ActivityTelaPrincipalUsuarioBinding
+br/unicamp/projprat3/databinding/ItemUsuarioPesquisaBinding.java
+ br.unicamp.projprat3.databinding.ItemUsuarioPesquisaBinding
+br/unicamp/projprat3/GridViewVagaAdapter.java
+ br.unicamp.projprat3.GridViewVagaAdapter
+ br.unicamp.projprat3.GridViewVagaAdapter$1
+br/unicamp/projprat3/databinding/ItemVagaPesquisaBinding.java
+ br.unicamp.projprat3.databinding.ItemVagaPesquisaBinding
+br/unicamp/projprat3/TelaPrincipalEmpresa.java
+ br.unicamp.projprat3.TelaPrincipalEmpresa
+ br.unicamp.projprat3.TelaPrincipalEmpresa$1
+ br.unicamp.projprat3.TelaPrincipalEmpresa$2
+ br.unicamp.projprat3.TelaPrincipalEmpresa$3
+ br.unicamp.projprat3.TelaPrincipalEmpresa$4
+ br.unicamp.projprat3.TelaPrincipalEmpresa$5
+ br.unicamp.projprat3.TelaPrincipalEmpresa$6
+ br.unicamp.projprat3.TelaPrincipalEmpresa$7
+ br.unicamp.projprat3.TelaPrincipalEmpresa$8
+br/unicamp/projprat3/CadastroEmpresa.java
+ br.unicamp.projprat3.CadastroEmpresa
+ br.unicamp.projprat3.CadastroEmpresa$1
+ br.unicamp.projprat3.CadastroEmpresa$1$1
+br/unicamp/projprat3/PerfilUsuario.java
+ br.unicamp.projprat3.PerfilUsuario
+ br.unicamp.projprat3.PerfilUsuario$1
+ br.unicamp.projprat3.PerfilUsuario$2
+ br.unicamp.projprat3.PerfilUsuario$3
+br/unicamp/projprat3/TelaLogin.java
+ br.unicamp.projprat3.TelaLogin
+ br.unicamp.projprat3.TelaLogin$1
+ br.unicamp.projprat3.TelaLogin$2
+ br.unicamp.projprat3.TelaLogin$3
+ br.unicamp.projprat3.TelaLogin$3$1
+ br.unicamp.projprat3.TelaLogin$3$2
+br/unicamp/projprat3/GridViewVagaAplicadaAdapter.java
+ br.unicamp.projprat3.GridViewVagaAplicadaAdapter
+ br.unicamp.projprat3.GridViewVagaAplicadaAdapter$1
+ br.unicamp.projprat3.GridViewVagaAplicadaAdapter$1$1
+ br.unicamp.projprat3.GridViewVagaAplicadaAdapter$1$1$1
+ br.unicamp.projprat3.GridViewVagaAplicadaAdapter$1$2
+ br.unicamp.projprat3.GridViewVagaAplicadaAdapter$2
+ br.unicamp.projprat3.GridViewVagaAplicadaAdapter$2$1
+ br.unicamp.projprat3.GridViewVagaAplicadaAdapter$2$1$1
+ br.unicamp.projprat3.GridViewVagaAplicadaAdapter$2$2
+br/unicamp/projprat3/CadastroPessoa.java
+ br.unicamp.projprat3.CadastroPessoa
+ br.unicamp.projprat3.CadastroPessoa$1
+ br.unicamp.projprat3.CadastroPessoa$1$1
+br/unicamp/projprat3/TelaPrincipalUsuario.java
+ br.unicamp.projprat3.TelaPrincipalUsuario
+ br.unicamp.projprat3.TelaPrincipalUsuario$1
+ br.unicamp.projprat3.TelaPrincipalUsuario$10
+ br.unicamp.projprat3.TelaPrincipalUsuario$10$1
+ br.unicamp.projprat3.TelaPrincipalUsuario$11
+ br.unicamp.projprat3.TelaPrincipalUsuario$12
+ br.unicamp.projprat3.TelaPrincipalUsuario$13
+ br.unicamp.projprat3.TelaPrincipalUsuario$2
+ br.unicamp.projprat3.TelaPrincipalUsuario$3
+ br.unicamp.projprat3.TelaPrincipalUsuario$4
+ br.unicamp.projprat3.TelaPrincipalUsuario$5
+ br.unicamp.projprat3.TelaPrincipalUsuario$6
+ br.unicamp.projprat3.TelaPrincipalUsuario$7
+ br.unicamp.projprat3.TelaPrincipalUsuario$8
+ br.unicamp.projprat3.TelaPrincipalUsuario$9
+br/unicamp/projprat3/PerfilEmpresa.java
+ br.unicamp.projprat3.PerfilEmpresa
+ br.unicamp.projprat3.PerfilEmpresa$1
+ br.unicamp.projprat3.PerfilEmpresa$2
+ br.unicamp.projprat3.PerfilEmpresa$3
+br/unicamp/projprat3/CriarVaga.java
+ br.unicamp.projprat3.CriarVaga
+ br.unicamp.projprat3.CriarVaga$1
+ br.unicamp.projprat3.CriarVaga$1$1
+br/unicamp/projprat3/VagaAInserir.java
+ br.unicamp.projprat3.VagaAInserir
+br/unicamp/projprat3/Service.java
+ br.unicamp.projprat3.Service

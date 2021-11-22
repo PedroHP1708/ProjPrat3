@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edtTexto"
+        android:layout_width="300dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btnConfirmar"
+        android:layout_marginTop="80dp"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:text="Confirmar"/>
+
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="230dp"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:text="Cancelar" />
+</RelativeLayout>

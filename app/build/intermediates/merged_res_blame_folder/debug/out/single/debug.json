@@ -1,0 +1,166 @@
+[
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_perfil_usuario_clicado.xml.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\layout\\activity_perfil_usuario_clicado.xml"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_tela_vaga.xml.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\layout\\activity_tela_vaga.xml"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_tela_principal_empresa.xml.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\layout\\activity_tela_principal_empresa.xml"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_criar_vaga.xml.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\layout\\activity_criar_vaga.xml"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\font_alef.ttf.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\font\\alef.ttf"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\drawable_custom_barra_pesquisa.xml.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\drawable\\custom_barra_pesquisa.xml"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\drawable_custom_btn.xml.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\drawable\\custom_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\layout_item_usuario_pesquisa.xml.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\layout\\item_usuario_pesquisa.xml"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_perfil_empresa.xml.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\layout\\activity_perfil_empresa.xml"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\font_alata.ttf.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\font\\alata.ttf"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_cadastro_pessoa.xml.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\layout\\activity_cadastro_pessoa.xml"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_perfil_usuario.xml.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\layout\\activity_perfil_usuario.xml"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_menu_camera.xml.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\drawable\\ic_menu_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\drawable_custom_photo_place.xml.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\drawable\\custom_photo_place.xml"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_search_24.xml.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\drawable\\ic_baseline_search_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\layout_item_vaga_usuario.xml.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\layout\\item_vaga_usuario.xml"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\drawable_side_nav_bar.xml.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\layout_dialog_pesquisa_area.xml.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\layout\\dialog_pesquisa_area.xml"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_tela_principal_usuario.xml.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\layout\\activity_tela_principal_usuario.xml"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_cadastro_empresa.xml.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\layout\\activity_cadastro_empresa.xml"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\drawable_custom_edt.xml.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\drawable\\custom_edt.xml"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\drawable_custom_view.xml.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\drawable\\custom_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_menu_slideshow.xml.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\drawable\\ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\layout_item_aplicacao_pendente.xml.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\layout\\item_aplicacao_pendente.xml"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_menu_gallery.xml.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\drawable\\ic_menu_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\build\\intermediates\\merged_res\\debug\\layout_item_vaga_pesquisa.xml.flat",
+        "source": "C:\\Users\\pedro\\AndroidStudioProjects\\New folder\\app\\src\\main\\res\\layout\\item_vaga_pesquisa.xml"
+    }
+]
